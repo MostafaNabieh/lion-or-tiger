@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        android:background="@android:color/holo_orange_dark"
+        app:columnCount="3">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:alpha=".2"
+            android:background="@color/lion"
+            android:onClick="imgclick"
+            android:tag="1" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:alpha=".2"
+            android:background="@color/lion"
+            android:onClick="imgclick"
+            android:tag="2" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:alpha=".2"
+            android:background="@color/lion"
+            android:onClick="imgclick"
+            android:tag="3" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:alpha=".2"
+            android:background="@color/lion"
+            android:onClick="imgclick"
+            android:tag="4" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:alpha=".2"
+            android:background="@color/lion"
+            android:onClick="imgclick"
+            android:tag="5" />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:alpha=".2"
+            android:background="@color/lion"
+            android:onClick="imgclick"
+            android:tag="6" />
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:alpha=".2"
+            android:background="@color/lion"
+            android:onClick="imgclick"
+            android:tag="7" />
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:alpha=".2"
+            android:background="@color/lion"
+            android:onClick="imgclick"
+            android:tag="8" />
+
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:alpha=".2"
+            android:background="@color/lion"
+            android:onClick="imgclick"
+            android:tag="9" />
+
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center"
+        android:text="Lion or Tiger ?"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Rest"
+        android:textColor="@android:color/background_light"
+        android:visibility="invisible" />
+</RelativeLayout>
